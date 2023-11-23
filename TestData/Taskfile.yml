@@ -1,0 +1,16 @@
+version: "3"
+
+tasks:
+  hello:
+    summary: summary
+    desc: desc
+    cmds:
+      - echo "Hello."
+  good-morning:
+    summary: summary
+    desc: desc
+    cmds:
+      - echo "Good Morning."
+  error:
+    cmds:
+      - no_cmd
